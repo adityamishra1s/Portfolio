@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Aditya's Portfolio</div>
+            <div class="right">
+                <ul>
+
+                    <li><a href="#left">Home</a></li>
+                    <li><a href="#about"> About</a></li>
+                    <li><a href="">Service</a></li>                    
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contect Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi My Name is
+                <span class="purple"> Aditya</span>
+                <div>and I am a passionate</div>
+
+                <span id="element"></span>
+                <p>
+                    <button class="button">
+                        <a href="Resume.pdf"> Download CV</a>
+                    </button>
+                </p>
+
+            </div>
+
+            <div class="rightSection">
+                <img src="image (2).png" alt="">
+            </div>
+        </section>
+
+        <div class="Aditya">
+            
+            <span id="about">About</span>
+        </div>
+
+        <hr>
+        <section class="about">
+            <h2>About Me</h2>
+
+            <p>A highly motivated and enthusiastic fresher with a strong
+                academic background in Bachelor of Computer Application
+                eager to start a professional career. Possesses good
+                communication skills, a quick learning ability and problem
+                solving. Looking for an opportunity to apply theoretical
+                knowledge in a practical setting and grow along with the
+                organization.</p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>C / C++</li>
+                <li>DSA </li>
+            </ul>
+        </section>
+
+        <section class="language">
+            <h2>Language</h2>
+            <ul>
+                <li>Hindi</li>
+                <li>Engli</ul>
+        </section>
+
+        <section class="projects" id="project">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Weather App</strong> – <div class="">This is using to know the Weather of your city.And find the prsent weather.
+                    This using API to complete Project' </div></li>
+                <li><strong>Online Resume Builder</strong> – A site to generate resumes.</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <ul>
+         <li><p>Email: adityamishra09648@gmail.com</p></li>
+            <li><p>GitHub: github.com/adityamishra1s</p></li>
+            <li><p>Mobile No: 9005636715</p></li>
+            </ul>
+        </section>
+
+
+        <footer>
+            <p>© 2025 Aditya Mishra</p>
+        </footer>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Content creator', 'Programmer'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script>
+        var typed = new Typed('#about', {
+            strings: ['A highly motivated and enthusiastic fresher with a strong',
+                'academic background in Bachelor of Computer Application',
+                'eager to start a professional career. Possesses good',
+                'communication skills, a quick learning ability and problem',
+                'solving. Looking for an opportunity to apply theoretical',
+                'knowledge in a practical setting and grow along with the',
+                ' organization.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
